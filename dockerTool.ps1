@@ -1,5 +1,5 @@
 ﻿Write-Host ""
-$input = $false
+$userInput = $false
 
 
 
@@ -11,8 +11,8 @@ Write-Host "please enter your selection
     3.)image information
       "
 
-$input=Read-Host "Selection"
-switch($input){
+$userInput=Read-Host "Selection"
+switch($userInput){
     1{inspectContainer}
     2{inspectNetwork}  #need to finsh this
     3{inspectImage}
