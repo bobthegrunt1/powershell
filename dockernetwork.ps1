@@ -1,4 +1,5 @@
 ﻿function inspectNetwork{
+#test
 
 Write-Host ""
 $respone = $false
